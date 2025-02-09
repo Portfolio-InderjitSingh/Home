@@ -218,8 +218,8 @@
       nav .menu-button img {
         margin-top: 0rem;
         margin-bottom: -0.6rem;
-        max-width: 22px;
-        max-height: 22px;
+        max-width: 20px;
+        max-height: 20px;
       }
 
 
@@ -594,8 +594,8 @@ body {
     }
 
     .hero h1 {
-      margin-top: 3rem;
-      margin-bottom: 2.5rem;
+      margin-top: 3.2rem;
+      margin-bottom: 3.2rem;
         font-size: 3rem;
         padding: 0 0 0 0;
     }
@@ -605,7 +605,7 @@ body {
       padding: 0 0 0 0;
       letter-spacing: 0.02rem;
       word-spacing: 0.3rem;
-      margin-bottom: 4rem;
+      margin-bottom: 4.4rem;
     }
 
 
@@ -617,7 +617,8 @@ body {
 
 
     .social-icons {
-        margin-left: 0.8rem;
+        margin-left: 0.4rem;
+        margin-bottom: -2.6rem;
     }
 
     .social-icons a {
@@ -645,6 +646,7 @@ body {
 
 .specialization {
     padding: 12rem 5rem; /* converted rem values */
+    margin-bottom: -2.2rem;
     background-color: var(--colour-bg);
     text-align: center;
   }
@@ -730,6 +732,12 @@ body {
     margin-bottom: -6rem;
     background-color: var(--colour-main);
     color: white;
+    font-weight: bold;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    word-spacing: 0.24rem;
     font-size: 1.6rem; /* converted rem values */
     padding: 0.72rem 3.2rem; /* converted rem values */
     border: 0.3rem solid;
@@ -1102,6 +1110,10 @@ body {
   
   .branding .name {
     font-size: 20px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
     font-weight: bold;
     margin: 0 0 10px 0;    /* Adjusts spacing below the name */
   
@@ -1196,7 +1208,7 @@ body {
   
   .social-icons-2 {
     margin-top: 60px;  /* Space above social icons */
-    background-color: var(--colour-fade);
+    background-color: #ffffff;
     border-radius: 20px;
     text-align: center; /* Center icons */
   }
