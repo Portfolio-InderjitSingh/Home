@@ -320,7 +320,7 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: -1rem;
-    gap: 2rem; /* Space between button and icons */
+    gap: 3.2rem; /* Space between button and icons */
 }
 
 .cta-container button {
@@ -337,11 +337,12 @@ body {
     font-weight: 500;
     letter-spacing: 0.1rem;
     word-spacing: 0.2rem;
+    margin-left: -0.7rem;
     color: white;
     background-color: var(--colour-main);
     padding: 0.88rem 5rem;
     border: 0.3rem solid;
-    border-radius: 2rem;
+    border-radius: 1.6rem;
      text-decoration: none;  /* Removes underline */
     transition: background-color 0.3s ease;
 }
@@ -362,7 +363,7 @@ body {
     display: flex;
     margin-top: 0.46rem;
     margin-left: 6rem;
-    gap: 2.6rem; /* Space between icons */
+    gap: 3rem; /* Space between icons */
     align-items: center;
   }
   
@@ -427,6 +428,7 @@ body {
 
   .cta-button {
     font-size: 1.2rem;
+    margin-left: 0rem;
     padding: 0.8rem 4rem;
   }
 
@@ -478,6 +480,7 @@ body {
 
   .cta-button {
     font-size: 0.7rem;
+    margin-left: 0rem;
     padding: 0.78rem 4rem;
   }
 
@@ -516,6 +519,11 @@ body {
         flex-direction: column; /* Stack elements on smaller screens */
         align-items: center;
         margin-bottom: -4rem;
+    }
+
+
+    .cta-button {
+      margin-left: 0rem;
     }
 
 
@@ -577,6 +585,10 @@ body {
     .cta-container {
             flex-direction: column; /* Stack elements on smaller screens */
             align-items: center;
+    }
+
+    .cta-button {
+      margin-left: 0rem;
     }
 
         
