@@ -601,20 +601,22 @@ body {
 
 
     .hero .job {
+      font-size: 1.12rem;
       margin-top: 0rem;
-      letter-spacing: 0.16rem;
+      letter-spacing: 0.14rem;
     }
 
     .hero h1 {
-      margin-top: 3.28rem;
+      margin-top: 3.36rem;
       margin-bottom: 3.2rem;
-        font-size: 3rem;
+        font-size: 2.6rem;
         padding: 0 0 0 0;
     }
 
 
     .hero p {
       padding: 0 0 0 0;
+      font-size: 1.6rem;
       letter-spacing: 0.02rem;
       word-spacing: 0.3rem;
       margin-bottom: 4.4rem;
@@ -630,6 +632,7 @@ body {
 
     .social-icons {
         margin-left: 0.4rem;
+        margin-top: 1rem;
         margin-bottom: -2.6rem;
     }
 
