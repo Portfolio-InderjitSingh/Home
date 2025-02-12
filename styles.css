@@ -293,6 +293,7 @@ body {
 font-family: 'Playfair Display', serif;
   font-size: 3.8rem; /* Slightly smaller heading */
   font-weight: bold;
+  word-spacing: 0.6rem;
   color: var(--colour-main);;
   line-height: 1.6; /* Adjusts line height for better spacing */
   margin-bottom: 3.8rem;
@@ -340,7 +341,7 @@ border-color: #ffffff00;
   margin-left: -0.7rem;
   color: white;
   background-color: var(--colour-main);
-  padding: 0.88rem 5rem;
+  padding: 0.88rem 5.2rem;
   border: 0.3rem solid;
   border-radius: 1.6rem;
    text-decoration: none;  /* Removes underline */
@@ -363,7 +364,7 @@ color: var(--colour-main);
   display: flex;
   margin-top: 0.46rem;
   margin-left: 6rem;
-  gap: 3rem; /* Space between icons */
+  gap: 3.66rem; /* Space between icons */
   align-items: center;
 }
 
@@ -615,7 +616,7 @@ gap: 0.2rem;
 
 
   .hero p {
-    font-size: 1.72rem;
+    font-size: 1.64rem;
     padding: 0 0 0 0;
     letter-spacing: 0.02rem;
     word-spacing: 0.3rem;
@@ -632,6 +633,7 @@ gap: 0.2rem;
 
   .social-icons {
       margin-left: 0.4rem;
+      margin-top: 0.6rem;
       margin-bottom: -2.6rem;
   }
 
@@ -667,7 +669,7 @@ gap: 0.2rem;
 
 .section-heading h2 {
   font-size: 2.8rem; /* converted rem values */
-  font-family: Font-Mandrel , var(--font-ptserif) ;
+  font-family: var(--font-ptserif) ;
   font-weight: 500;
   color: var(--colour-main);
   margin-top: -2rem; /* converted rem values */
