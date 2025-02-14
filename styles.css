@@ -611,6 +611,7 @@ gap: 0.2rem;
     margin-top: 3.28rem;
     margin-bottom: 3.2rem;
       font-size: 3rem;
+      word-spacing: 0.4rem;
       padding: 0 0 0 0;
   }
 
@@ -662,6 +663,8 @@ gap: 0.2rem;
 
 .specialization {
   padding: 12rem 5rem; /* converted rem values */
+  padding-left: 8rem;
+  padding-right: 8rem;
   margin-bottom: -2.2rem;
   background-color: var(--colour-bg);
   text-align: center;
@@ -672,15 +675,15 @@ gap: 0.2rem;
   font-family: var(--font-ptserif) ;
   font-weight: 500;
   color: var(--colour-main);
-  margin-top: -2rem; /* converted rem values */
-  margin-bottom: 5.8rem; /* converted rem values */ /* Increased margin */
+  margin-top: -1.8rem; /* converted rem values */
+  margin-bottom: 7.4rem; /* converted rem values */ /* Increased margin */
   text-align: centre;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 6.88rem; /* converted rem values */
+  gap: 8.8rem; /* converted rem values */
 }
 
 
@@ -724,7 +727,7 @@ gap: 0.2rem;
 
 .card h3 {
   font-size: 2.4rem; /* converted rem values */
-  font-family: Font-Mandrel;
+  font-family: Font-Mandrel, var(--font-ptserif);
   font-weight: 500;
   color: var(--colour-dark);
   margin-top: 1.6rem; /* converted rem values */
@@ -782,6 +785,8 @@ gap: 0.2rem;
 
   .specialization {
     padding-top: 10rem;
+    padding-left: 4.4rem;
+    padding-right: 4.4rem;
   }
 
 }
