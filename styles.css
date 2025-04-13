@@ -19,9 +19,12 @@
   font-weight: 700;
   font-style: normal;
 
-  --font-mont:  "Montserrat", serif;
+  --font-mont: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200;
+  font-weight: 300;
+
+ --font-nunito: "Nunito", sans-serif;
+  font-optical-sizing: auto;
 
 
   --font-lora: "Lora", serif;
@@ -34,7 +37,7 @@
   --colour-bg: #F8F9FF;
   --colour-main: #1E293B;
   --colour-dark: color: #02172b;
-  --colour-fade:  #C0CFD9;
+  --colour-fade:  #c0d1db;
 
 
 }
@@ -190,7 +193,7 @@ nav {
       text-align: center; /* Center text in mobile menu */
       width: 100%; /* Full width */
       position: absolute;
-      top: 7rem; /* Position below the nav bar */
+      top: 6rem; /* Position below the nav bar */
       left: 0; /* Cover entire width */
       background-color: #fff;
       padding: 2.24rem 0; /* converted rem values */
@@ -276,39 +279,38 @@ body {
 
 .hero .job {
   font-size: 1.2rem;
-  font-family: var(--font-varela), var(--font-Libre);
-  text-transform: uppercase;
-  font-weight: 400;
-  word-spacing: 0.46rem;
+  font-family: var(--font-nunito);
   text-transform: uppercase;
   color: var(--colour-main);
-  letter-spacing: 0.18rem;
-  line-height: 2.32rem;
-  margin-bottom: 1.2rem;
+  letter-spacing: 0.15rem;
+  word-spacing: 0.55rem;
+  line-height: 2.4rem;
+  margin-bottom: 1.34rem;
 }
 
 
 
 .hero h1 {
-font-family: 'Playfair Display', serif;
-  font-size: 3.8rem; /* Slightly smaller heading */
-  font-weight: bold;
-  word-spacing: 0.6rem;
+font-family: var(--font-nunito);
+  font-family: "Lora", serif;
+  font-size: 3.5rem; /* Slightly smaller heading */
+  font-weight: 500;
+  word-spacing: 0.76rem;
   color: var(--colour-main);;
   line-height: 1.6; /* Adjusts line height for better spacing */
   margin-bottom: 3.8rem;
-  max-width: 75%;
+  max-width: 70%;
 }
 
 
 
 .hero p {
-font-size: 1.8rem;
+font-size: 1.84rem;
   color: var(--colour-main);
-  line-height: 1.7;
+  line-height: 1.86;
   letter-spacing: 0.1rem;
   word-spacing: 0.1rem;
-  margin-bottom: 5.6rem;
+  margin-bottom: 5rem;
   max-width: 50rem;
 }
 
@@ -363,14 +365,14 @@ color: var(--colour-main);
 .social-icons {
   display: flex;
   margin-top: 0.46rem;
-  margin-left: 6rem;
-  gap: 3.66rem; /* Space between icons */
+  margin-left: 4rem;
+  gap: 3rem; /* Space between icons */
   align-items: center;
 }
 
 .social-icons img {
-  max-width: 29px;  /* Adjust size as needed */
-  max-height: 29px;
+  max-width: 32px;  /* Adjust size as needed */
+  max-height: 32px;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
@@ -382,9 +384,9 @@ color: var(--colour-main);
 
 
 .profile-image {
-width: 34rem;
-height: 34rem;
-margin-top: 4.6rem;
+width: 33rem;
+height: 33rem;
+margin-top: 6.4rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -602,32 +604,44 @@ gap: 0.2rem;
 
 
   .hero .job {
-    font-size: 1.14rem;
+    display: block;
+    font-size: 1.16rem;
+    font-weight: 500;
+    word-spacing: 0.4rem;
+    letter-spacing: 0.28rem;
+    line-height: 2.32rem;
     margin-top: 0rem;
     letter-spacing: 0.16rem;
+    margin-bottom: 1.36rem;
   }
 
   .hero h1 {
-    margin-top: 3.28rem;
-    margin-bottom: 3.2rem;
-      font-size: 3rem;
-      word-spacing: 0.4rem;
+    margin-top: 3.6rem;
+    margin-bottom: 4.4rem;
+      font-size: 2.84rem;
+      font-weight: 500;
+      word-spacing: 0.6rem;
+      line-height: 1.76;
       padding: 0 0 0 0;
+      margin-left: 0.4rem ;
+      margin-right: 0.4rem;
   }
 
 
   .hero p {
-    font-size: 1.64rem;
+    display: none;
+    font-size: 1.58rem;
+    color: #343c44;
     padding: 0 0 0 0;
     letter-spacing: 0.02rem;
     word-spacing: 0.3rem;
-    margin-bottom: 4.4rem;
+    margin-bottom: 4.54rem;
   }
 
 
   .profile-image {
-      width: 20rem;  /*adjusts image size */
-      height: 20rem;
+      width: 19.2rem;  /*adjusts image size */
+      height: 19.2rem;
       margin-top: -1rem;
   }
 
@@ -739,6 +753,9 @@ gap: 0.2rem;
   font-size: 1.5rem; /* converted rem values */
   font-family: var(--font-varela);
   font-weight: 500;
+  letter-spacing: 0.03rem;
+  word-spacing: 0.26rem;
+  line-height: 1.78;
   color: var(--colour-dark);
   margin-left: 1.6rem;
   margin-bottom: 2.24rem; /* converted rem values */
@@ -747,20 +764,21 @@ gap: 0.2rem;
 
 .services-button {
   display: inline-block;
-  margin-top: 6.4rem; /* converted rem values */
-  margin-bottom: -6rem;
+  margin-top: 8rem; /* converted rem values */
+  margin-bottom: -5rem;
   background-color: var(--colour-main);
   color: white;
-  font-weight: bold;
-  font-family: "Lora", serif;
+  font-family: var(--font-nunito);
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 700;
   font-style: normal;
   word-spacing: 0.24rem;
-  font-size: 1.6rem; /* converted rem values */
-  padding: 0.72rem 3.2rem; /* converted rem values */
+  font-size: 1.48rem; /* converted rem values */
+  padding: 0.8rem 8.4rem; /* converted rem values */
   border: 0.3rem solid;
-  border-radius: 2rem;
+  letter-spacing: 0.08rem;
+  word-spacing: 0.4rem;
+  border-radius: 1.8rem;
   cursor: pointer;
   box-shadow: 0 0.4rem 1rem rgba(30, 58, 102, 0.2); /* More visible shadow */
   transition: background-color 0.04s ease;
@@ -788,7 +806,11 @@ gap: 0.2rem;
     padding-left: 4.4rem;
     padding-right: 4.4rem;
   }
-
+  
+  .services-button {
+    margin-top: 8.4rem;
+    padding: 1rem 4.6rem; /* converted rem values */
+  }
 }
 
 
@@ -842,7 +864,7 @@ gap: 0.2rem;
 .about-section {
   background-color: var(--colour-main);
   padding: 8.4rem 4rem;
-  border-radius: 6rem;
+  border-radius: 5.4rem;
   overflow: hidden; /* Ensures rounded corners are not clipped by content */
 }
 
@@ -884,7 +906,7 @@ gap: 0.2rem;
   color: var(--colour-fade);
   letter-spacing: 0.2rem;
   text-transform: uppercase; /* ensures uppercase text */
-  margin-bottom: 1rem; /* Adds spacing below the subheading*/
+  margin-bottom: 1.3rem; /* Adds spacing below the subheading*/
 }
 
 .text-content h2 {
@@ -897,10 +919,11 @@ gap: 0.2rem;
 }
 
 .description {
-  font-family: var(--font-Libre);
+  font-family: var(--font-lora);
   font-size: 1.6rem;
   color: var(--colour-fade);
   line-height: 1.6;
+  word-spacing: 0.26rem;
   margin-bottom: 3.6rem; /* Adjusted margin-bottom for better spacing */
 }
 
@@ -926,7 +949,7 @@ gap: 0.2rem;
 
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
 
 
   .content {
@@ -942,6 +965,7 @@ gap: 0.2rem;
   
   
     .description {
+      font-size: 1.6rem;
       margin-bottom: 5rem; /* Adjusted margin-bottom for better spacing */
     }
   
@@ -979,7 +1003,7 @@ gap: 0.2rem;
   font-weight: 600;
   letter-spacing: 1px;
   color: var(--colour-main);
-  margin-bottom: 10px;
+  margin-bottom: 13px;
   text-transform: uppercase;
 }
 
@@ -988,16 +1012,16 @@ gap: 0.2rem;
   font-size: 32px;
   font-weight: 600;
   color: var(--colour-main);;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
 
 .supporting-text {
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: var(--colour-main);
   max-width: 600px;
-  margin: 0 auto 30px; /* Centered margin */
+  margin: 0 auto 38px; /* Centered margin */
   line-height: 1.5;
 }
 
@@ -1010,7 +1034,7 @@ gap: 0.2rem;
   background-color: var(--colour-main);
   color: #fff;
   letter-spacing: 0.16rem;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: bold;
   font-family: "Lora", serif;
   font-optical-sizing: auto;
@@ -1130,12 +1154,12 @@ footer {
 
 
 .branding .name {
-  font-size: 20px;
+  font-size: 22px;
   font-family: "Lora", serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 400;
+  word-spacing: 0.26rem;
   font-style: normal;
-  font-weight: bold;
   margin: 0 0 10px 0;    /* Adjusts spacing below the name */
 
 }
@@ -1143,11 +1167,14 @@ footer {
 
 .branding .description {
   color: var(--colour-fade);
-font-size: 14px;
-font-weight: 400; /* Lighter font weight for description */
-line-height: 1.8;
-margin-top: 30px;
-max-width: 70%;
+  font-family: var(--font-nunito);
+  font-size: 14.5px;
+  font-weight: 500;  /* Lighter font weight for description */
+  line-height: 1.8;
+  letter-spacing: 0.08rem;
+  word-spacing: 0.1rem;
+  margin-top: 30px ; 
+  max-width: 70%;
 
 }
 
@@ -1162,7 +1189,8 @@ max-width: 70%;
 
 
 .navigation h3 {
-font-size: 16px;
+  font-family: var(--font-nunito);
+font-size: 16.6px;
 font-weight: 600;  /* Semi-bold */
 margin-bottom: 15px;
 }
@@ -1173,6 +1201,8 @@ margin-bottom: 15px;
   list-style: none;
   padding: 0;
   margin: 0;
+  letter-spacing: 0.07rem;
+  word-spacing: 0.2rem;
 
 }
 
@@ -1199,6 +1229,7 @@ font-size: 14px;
 /* Section 3: Contact Information */
 
 .contact-info h3 {
+  font-family: var(--font-nunito);
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 15px;
@@ -1291,6 +1322,7 @@ color: #2563eb;  /* Darker blue on hover */
 
   .branding .description {
     max-width: 100%;
+    margin: 26px 12px 20px 12px;  /* top , right , bottom, left */
   }
 
 
