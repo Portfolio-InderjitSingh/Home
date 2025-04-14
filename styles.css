@@ -339,11 +339,11 @@ border-color: #ffffff00;
   font-family: var(--font-lora);
   font-weight: 500;
   letter-spacing: 0.1rem;
-  word-spacing: 0.2rem;
-  margin-left: -0.7rem;
+  word-spacing: 0.26rem;
+  margin-left: -0.8rem;
   color: white;
   background-color: var(--colour-main);
-  padding: 0.88rem 5.2rem;
+  padding: 0.88rem 5rem;
   border: 0.3rem solid;
   border-radius: 1.6rem;
    text-decoration: none;  /* Removes underline */
@@ -365,7 +365,7 @@ color: var(--colour-main);
 .social-icons {
   display: flex;
   margin-top: 0.46rem;
-  margin-left: 4rem;
+  margin-left: 3.88rem;
   gap: 3rem; /* Space between icons */
   align-items: center;
 }
@@ -592,9 +592,17 @@ gap: 0.2rem;
 
   .cta-button {
     margin-left: 0rem;
+    border: 0.24rem solid;
+    font-weight: 500;
+    background-color: #ffffff;
+    color: var(--colour-main);
   }
 
       
+.cta-button.primary:hover {
+  color: var(--colour-bg);
+  background-color: var(--colour-main);
+  }
 
   .contact-button {
       display: block;  /*button takes full width */
@@ -605,9 +613,9 @@ gap: 0.2rem;
 
   .hero .job {
     display: block;
-    font-size: 1.16rem;
-    font-weight: 500;
-    word-spacing: 0.4rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    word-spacing: 0.44rem;
     letter-spacing: 0.28rem;
     line-height: 2.32rem;
     margin-top: 0rem;
