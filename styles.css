@@ -335,7 +335,7 @@ border-color: #ffffff00;
 
 .cta-button {
   display: inline-block; /*makes it inline level*/
-  font-size: 1.44rem;
+  font-size: 1.4rem;
   font-family: var(--font-lora);
   font-weight: 500;
   letter-spacing: 0.1rem;
@@ -343,7 +343,7 @@ border-color: #ffffff00;
   margin-left: -0.8rem;
   color: white;
   background-color: var(--colour-main);
-  padding: 0.88rem 5rem;
+  padding: 0.8rem 5rem;
   border: 0.3rem solid;
   border-radius: 1.6rem;
    text-decoration: none;  /* Removes underline */
@@ -593,6 +593,7 @@ gap: 0.2rem;
   .cta-button {
     margin-left: 0rem;
     border: 0.24rem solid;
+    padding: 0.7rem 5rem;
     font-weight: 500;
     background-color: #ffffff;
     color: var(--colour-main);
