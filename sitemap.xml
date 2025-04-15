@@ -9,12 +9,32 @@
 
 <url>
   <loc>https://portfolio-inderjitsingh.github.io/Home/</loc>
-  <lastmod>2025-02-07T16:16:36+00:00</lastmod>
+  <lastmod>2025-04-14T14:45:25+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://portfolio-inderjitsingh.github.io/Home/error.html</loc>
-  <lastmod>2025-02-07T16:16:36+00:00</lastmod>
+  <loc>https://portfolio-inderjitsingh.github.io/Home/Pages/MyWork.html</loc>
+  <lastmod>2025-04-14T14:45:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://portfolio-inderjitsingh.github.io/Home/Pages/error.html</loc>
+  <lastmod>2025-04-14T14:45:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://portfolio-inderjitsingh.github.io/Home/Pages/Services.html</loc>
+  <lastmod>2025-04-14T14:45:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://portfolio-inderjitsingh.github.io/Home/Pages/About-Me.html</loc>
+  <lastmod>2025-04-14T14:45:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://portfolio-inderjitsingh.github.io/Home/index.html</loc>
+  <lastmod>2025-04-14T14:45:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
