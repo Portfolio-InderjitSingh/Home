@@ -593,7 +593,7 @@ gap: 0.2rem;
   .cta-button {
     margin-left: 0rem;
     border: 0.24rem solid;
-    padding: 0.7rem 5rem;
+    padding: 0.7rem 4.8rem;
     font-weight: 500;
     background-color: #ffffff;
     color: var(--colour-main);
@@ -649,8 +649,8 @@ gap: 0.2rem;
 
 
   .profile-image {
-      width: 18rem;  /*adjusts image size */
-      height: 18rem;
+      width: 18.6rem;  /*adjusts image size */
+      height: 18.6rem;
       margin-top: -1rem;
   }
 
