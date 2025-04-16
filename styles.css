@@ -592,8 +592,8 @@ gap: 0.2rem;
 
   .cta-button {
     margin-left: 0rem;
-    border: 0.24rem solid;
-    padding: 0.7rem 4.8rem;
+    border: 0.2rem solid;
+    padding: 0.7rem 5rem;
     font-weight: 500;
     background-color: #ffffff;
     color: var(--colour-main);
@@ -656,7 +656,6 @@ gap: 0.2rem;
 
 
   .social-icons {
-      margin-left: 0.4rem;
       margin-top: 0.6rem;
       margin-bottom: -2.6rem;
   }
