@@ -649,8 +649,8 @@ gap: 0.2rem;
 
 
   .profile-image {
-      width: 19.2rem;  /*adjusts image size */
-      height: 19.2rem;
+      width: 18rem;  /*adjusts image size */
+      height: 18rem;
       margin-top: -1rem;
   }
 
@@ -752,6 +752,8 @@ gap: 0.2rem;
   font-size: 2.4rem; /* converted rem values */
   font-family: Font-Mandrel, var(--font-ptserif);
   font-weight: 500;
+  letter-spacing: 0.02rem;
+  word-spacing: 0.3rem;
   color: var(--colour-dark);
   margin-top: 1.6rem; /* converted rem values */
   margin-bottom: 1.6rem; /* converted rem values */
@@ -841,11 +843,15 @@ gap: 0.2rem;
 }
 
 
-.text-content h2 {
+.section-heading h2 {
   font-size: 2.8rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  line-height: 1.7;
+
 }
 
-.text-content p {
+.section-heading p {
   font-size: 1.56rem;
 }
 
