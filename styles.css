@@ -751,12 +751,11 @@ gap: 0.2rem;
   font-size: 2.4rem; /* converted rem values */
   font-family: Font-Mandrel, var(--font-ptserif);
   font-weight: 500;
-  letter-spacing: 0.02rem;
-  word-spacing: 0.3rem;
+  word-spacing: 0.14rem;
   color: var(--colour-dark);
   margin-top: 1.6rem; /* converted rem values */
   margin-bottom: 1.6rem; /* converted rem values */
-  margin-left: 1.6rem;
+  margin-left: 1.5rem;
 }
 
 .card p {
@@ -767,7 +766,7 @@ gap: 0.2rem;
   word-spacing: 0.26rem;
   line-height: 1.78;
   color: var(--colour-dark);
-  margin-left: 1.6rem;
+  margin-left: 1.5rem;
   margin-bottom: 2.24rem; /* converted rem values */
 }
 
