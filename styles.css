@@ -896,6 +896,7 @@ gap: 0.2rem;
 .image-container img {
   width: 84%; /* Ensures image fills the container */
   height: auto;
+  border-radius: 50%;
   box-shadow: 0px 0.2rem 1rem rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease-in-out;
 }
